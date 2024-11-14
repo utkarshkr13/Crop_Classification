@@ -92,7 +92,7 @@ The model accurately classifies and monitors crops, validated by ground truth da
 ### Code Sample
 ```javascript
 // Define Vellore District Boundary
-var table = ee.FeatureCollection("projects/ee-sparshkumar-lst-crop/assets/TAMILNADU_SUBDISTRICT_BDY");
+var table = ee.FeatureCollection("projects/repository_name/assets/TAMILNADU_SUBDISTRICT_BDY");
 var vellore = table.filter(ee.Filter.eq('District', 'VELLORE'));
 
 // Load and Filter Sentinel-2 Data
